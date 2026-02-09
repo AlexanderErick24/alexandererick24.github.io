@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Code2, Award, GraduationCap, ArrowUpRight } from "lucide-react";
 
 // Stat Badge Component
-const StatBadge = ({ icon, label, value, desc, delay }: { icon: any, label: string, value: string, desc: string, delay: number }) => {
+const StatBadge = ({ icon, label, value, desc, delay }: { icon: ReactNode, label: string, value: string, desc: string, delay: number }) => {
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}

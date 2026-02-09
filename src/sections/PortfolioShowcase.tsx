@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Code2, Award, Layers, ExternalLink, Github } from "lucide-react";
 import geminiImg from "../assets/Certificates/gemini.png";

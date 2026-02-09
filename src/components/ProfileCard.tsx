@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useMotionTemplate, useMotionValue, useSpring } from "framer-motion";
-import { User } from "lucide-react";
+
+// Verified
 import profileImg from "../assets/profile.JPG";
 
 const ProfileCard: React.FC = () => {
